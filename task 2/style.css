@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Chilanka&family=Rubik:wght@700&display=swap');
+
+body {
+  background-color: rgb(219, 244, 219);
+  position: fixed;
+}
+
+header {
+  left: 100%;
+  font-family: "Grandstander", cursive;
+  font-size: 190%;
+  color: rgb(4, 4, 79);
+  text-align: center;
+  margin-left: -10px;
+  text-decoration: underline overline;
+}
+
+h1 .header {
+  display: block;
+  font-size: 4em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 500px;
+  margin-inline-end: -100px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  text-align: center;
+}
+
+#date {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  display: block;
+  margin-bottom: 40px;
+  margin-left: 650px;
+  text-align: center;
+  font-size: 1.5em;
+
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(4, 4, 79);
+  background-color:rgb(250, 250, 229);
+}
+
+label[for="date"] {
+  margin-bottom: 10px;
+  margin-left: 600px;
+  font-size: 1.5em;
+
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(4, 4, 79);
+}
+
+label[for="goals"] {
+  margin-bottom: 10px;
+  margin-left: 570px;
+  font-size: 1.5em;
+
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(4, 4, 79);
+
+}
+
+textarea[placeholder="GOALS*"] {
+  margin-bottom: 10px;
+  margin-left: 570px;
+  font-size: 2em;
+
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(4, 4, 79);
+  background-color:rgb(219, 232, 240);
+  
+}
+
+.box1 {
+  border: 3px solid #ccc;
+  border-radius: 50px;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-right: 100px;
+  border-color:  rgb(4, 4, 79);
+  background-color:rgb(244, 232, 232);
+  margin-top: -2%;
+}
+
+.content1 {
+  text-align: right;
+  font-size: 2em;
+  margin-right: 32px;
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(4, 4, 79);
+}
+
+.priority {
+  margin-bottom: 20px;
+}
+
+.priority_value {
+  width: 210px;
+  padding: 10px;
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  background-color:rgb(219, 232, 240);
+  border-radius: 20px;
+}
+
+.priority_checkbox {
+  transform: scale(1.5);
+}
+
+.content2 {
+  text-align: left;
+  font-size: 2em;
+  margin-top: -530px;
+  margin-left: 130px;
+
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(4, 4, 79);
+  display: flex;
+  flex-direction: column;
+}
+
+.todolist {
+  margin-bottom: 10px;
+}
+
+.todolist_value {
+  width: 250px;
+  padding: 10px;
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  background-color:rgb(244, 232, 232);
+  border-radius: 10px;
+}
+
+.todolist_checkbox {
+  transform: scale(1.5);
+}
+
+.todolist:has(.todolist_checkbox:checked){
+  order: 1;
+}
+
+.box2 {
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: -230px;
+  border-color:rgb(4, 4, 79);
+  background-color:rgb(250, 250, 229);
+}
+
+.notes-container h3 {
+  margin-top: 0;
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(4, 4, 79);
+}
+
+.notes-input {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 14px;
+
+  font-family: "Chilanka", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  background-color:rgb(219, 232, 240);
+}
+
+.notes-input:focus {
+  outline: none;
+  border-color: rgb(4, 4, 79);
+}
+
+.background-container {
+  padding: 20px; 
+}
+
+.background-container img {
+    width: 200px;
+    height: auto;
+    margin-top: -45%;
+    margin-bottom: 100%;
+    margin-left: 25%;
+}
+
